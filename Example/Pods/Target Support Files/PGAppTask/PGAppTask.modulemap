@@ -1,0 +1,6 @@
+framework module PGAppTask {
+  umbrella header "PGAppTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
