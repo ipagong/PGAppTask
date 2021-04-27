@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/ipagong/PGAppTask.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '11.0'
-  s.spec.swift_version = '4.0'
+  s.swift_version = '4.0'
 
   s.source_files = 'PGAppTask/Classes/**/*'
   s.dependency 'SwiftPriorityQueue'
